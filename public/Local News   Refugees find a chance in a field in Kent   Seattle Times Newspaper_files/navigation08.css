@@ -1,0 +1,636 @@
+/* navigation container */
+#navigation{
+	margin-top:1px;
+	font-size:11px;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	height:21px;
+}
+
+.navigation_container,
+.navigation_container *{
+	padding:0;
+	margin:0;
+}
+
+/* color and size for each navigation set */
+#times_nav {
+	background-color:#506a8f;
+	width:563px;
+}
+#marketplace_nav {
+	width:397px;
+	background-color:#8093ad;
+}
+
+/* background color for currently selected menu */
+.navigation_container li ul.selected,
+.navigation_container li.selected{
+	background-color:#33445d;
+}
+
+.navigation_container li ul li a:hover{
+	background-color:#8093ad;
+}
+
+/* structural layout */
+.navigation_container{
+	position:relative;
+	list-style:none;
+	float:left;
+	z-index:301;
+}
+
+.navigation_container  li{
+	float:left;
+	height:21px;
+	line-height:18px;
+}
+
+.navigation_container li a{
+	display:block; /* IE doesn't care that the following UL is block, and requires this to be block as well */
+	padding:0 7px;
+}
+
+.navigation_container li ul{ 
+	list-style:none;
+	position:absolute; 
+	z-index:301;
+	margin-top:3px;
+	padding:4px 0;
+	display:none; /* disable lists by default */
+}
+
+.navigation_container li ul li{
+	/* this is here only to compenate for IE6's inabilit to handle child selectors (>)*/
+	float:none;
+	height:auto;
+	line-height:auto;
+}
+
+.navigation_container li ul li a,
+.navigation_container li.label{
+	width:175px;
+	line-height:18px;
+	display:block;
+	padding:1px 0 1px 9px;
+}
+
+/* separators */
+
+.navigation_container li.separator{
+	width:1px;
+	height:0;
+	line-height:0;
+	padding:0;
+	margin:0;
+	background:#f2f2f2;
+}
+
+.navigation_container li ul li.separator{
+	height:14px;
+	line-height:1px;
+	padding:0;
+	margin:0;
+	width:175px; /* IE6 child selector fix */
+	background:#33445d url(http://seattletimes.nwsource.com/art/ui/1024/navseparator_2.gif) no-repeat 50%;
+}
+
+.navigation_container li.label{
+	color:#CCCCCC;
+	font-size:100%;
+}
+
+.navigation_container a,
+.navigation_container a:link,
+.navigation_container a:visited,
+.navigation_container a:hover {
+	color:#FFF;
+	text-decoration:none;
+}
+
+/* second line of navigation */
+div#second_nav {
+	padding:2px 0 0 6px;
+	background-color:#f2f2f2;
+	height:19px;
+	border-top:1px #fff solid;
+	border-bottom:1px #999 solid;
+	clear:both;
+	font-size:71%;
+}
+
+div#second_nav a,
+div#second_nav a:link,
+div#second_nav a:visited, 
+div#second_nav a:active {
+	color:#038;
+	text-decoration:none;
+}
+
+div#second_nav a:hover {
+	color:#038;
+	text-decoration:underline;
+}
+
+div.quicklinks {
+	float:left;
+	font-weight:normal;
+	padding:0;
+}
+div.quicklinksright {
+	float:right;
+	margin:0px 6px 0 0;
+	padding:0;
+	font-weight:normal;
+}
+
+
+
+/* deprecated code through DEPRECATE_END */
+
+/* navigation container */
+.navcontainer, 
+.navcontainersports {
+	background-color:#506a8f;
+	margin-top:1px;
+	font-size:11px;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	height:21px;
+}
+
+/* styles for entire navigation */
+.timesnav {
+	position:relative;
+	width:565px;
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+	z-index:301;
+}
+
+.marketplacenav {
+	position:relative;
+	width:395px;
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+	background-color:#8093ad;
+	z-index:301;
+}
+
+.timesnav li, .marketplacenav li {
+	float:left;
+	position:relative;
+	padding:0;
+	margin:0;
+}
+
+#timesnav li a,
+#timesnav li a:link,
+#timesnav li a:visited,
+#timesnav li a:hover {
+	color:#FFF;
+}
+
+.timesnav li a,
+.timesnav li a:link {
+	display:block;
+	color:#FFF;
+	line-height:18px;
+	text-decoration:none;
+	padding:1px 7px 1px 7px;
+	_padding:1px 7px 1px 7px;
+}
+
+.timesnav li.solid a,
+.timesnav li.solid a:link {
+	padding:0 7px 1px 7px;
+	_padding:2px 7px 1px 7px;
+	color:#FFF;
+}
+
+.marketplacenav li a,
+.marketplacenav li a:link {
+	display:block;
+	color:#FFF;
+	line-height:18px;
+	text-decoration:none;
+	padding:1px 6px 1px 6px;
+	_padding:1px 6px 1px 6px;
+}
+
+.marketplacenav li.solid a,
+.marketplacenav li.solid a:link {
+	padding:0 6px 1px 6px;
+	_padding:2px 6px 1px 6px;
+	color:#FFF;
+}
+
+/* second line of navigation */
+div#secondnav {
+	padding:2px 0 0 6px;
+	background-color:#f2f2f2;
+	height:19px;
+	border-top:1px #fff solid;
+	border-bottom:1px #999 solid;
+	clear:both;
+	font-size:71%;
+}
+div.quicklinks {
+	float:left;
+	font-weight:normal;
+	padding:0;
+}
+div.quicklinksright {
+	float:right;
+	margin:0px 6px 0 0;
+	padding:0;
+	font-weight:normal;
+}
+span#welcome {
+	margin-right:10px;
+	visibility:hidden;
+}
+
+/* The following code affects Sports navigation only */
+/* It controls spacing between links in the horizontal navigation */
+
+div.navcontainersports ul.timesnav li a, 
+div.navcontainersports ul.timesnav li a:link {
+	display:block;
+	color:#FFF;
+	line-height:18px;
+	text-decoration:none;
+	padding:1px 8px 2px 8px;
+	_padding:1px 8px 1px 8px;
+}
+
+div.navcontainersports ul.timesnav li.solid a, 
+div.navcontainersports ul.timesnav li.solid a:link {
+	padding:0 8px 2px 8px;
+	_padding:2px 8px 1px 8px;
+	color:#FFF;
+}
+
+/* -------------- */
+/* end sports fix */
+/* -------------- */
+
+div#skiplinks {
+	height: 1px;
+	width: 1px;
+	position: absolute;
+	left: -1000px;
+}
+
+.line {
+	width:1px;
+	background:#f2f2f2;
+	height:21px;
+}
+
+.timesnav li.solid, .marketplacenav li.solid {
+	background:black;
+}
+
+.timesnav li.single a, .marketplacenav li.single a
+.timesnav li.single a:link, .marketplacenav li.single a:link {
+	color:#FFF;
+	padding:0 3px;
+	margin:0 3px;
+}
+
+.timesnav li.mainnav a,
+.timesnav li.mainnav a:link,
+.timesnav li.mainnav a:visited {
+	color:#FFF;
+	background-color:#506a8f;
+}
+
+.marketplacenav li.mainnav a,
+.marketplacenav li.mainnav a:link,
+.marketplacenav li.mainnav a:visited {
+	color:#FFF;
+	background-color:#8093ad;
+}
+
+.marketplacenav li.buyads a,
+.marketplacenav li.buyads a:link,
+.marketplacenav li.buyads a:visited {
+	color:#FFF;
+	background-color:#8093ad;
+}
+
+.timesnav li a:hover,
+.marketplacenav li a:hover {
+	color:#FFF;
+}
+
+
+.timesnav li.hi a {
+	color:#FFF;
+	background-color:#33445d;
+	text-decoration:none;
+}
+
+.marketplacenav li.hi a {
+	color:#FFF;
+	background-color:#33445d;
+	text-decoration:none;
+}
+
+.timesnav li.mainnav a.more, .marketplace li.mainnav a.more, .marketplace li.buyads a.more {
+	color:#FFF;
+	background:none;
+}
+
+.timesnav li.mainnav .dropdown,
+.marketplacenav li.mainnav .marketplacedropdown
+.marketplacenav li.buyads .marketplacedropdown {
+	display:none;
+}
+
+.timesnav li.hi .dropdown,
+.marketplacenav li.hi .marketplacedropdown {
+	display:block;
+}
+
+/* styles for dropdowns */
+.dropdown {
+	display:none;
+	list-style:none;
+	padding:4px 0;
+	margin:0;
+	background:#33445d;
+	position:absolute; 
+	z-index:301;
+}
+
+.dropdown li {
+	padding:0;
+	margin:0;
+	float:none;
+	background-color:#33445d;
+	line-height:18px;
+}
+
+.dropdown li.separator {
+	height:9px;
+	width:175px;
+	line-height:1px;
+	background:#33445d url(http://seattletimes.nwsource.com/art/ui/1024/navseparator.gif) no-repeat 0 50%;
+}
+
+.timesnav li ul.dropdown li a {
+	color:#FFF;
+	width:159px;
+	_width:175px;
+	color:#FFF;
+	padding:0 8px 2px 8px;
+	line-height:18px;
+}
+
+.timesnav li .dropdown li a:hover {
+	background-color:#8093ad;
+	text-decoration:none;
+}
+
+/* marketplace dropdowns */
+
+.marketplacedropdown {
+	display:none;
+	list-style:none;
+	padding:4px 0;
+	margin:0;
+	background-color:#33445d;
+	position:absolute; 
+	z-index:301;
+}
+
+.marketplacedropdown li {
+	padding:0;
+	margin:0;
+	float:none;
+	background:#33445d;
+	line-height:18px;
+}
+
+.marketplacenav li ul.marketplacedropdown li a {
+	width:159px;
+	_width:175px;
+	color:#FFF;
+	padding:0 8px 2px 8px;
+	line-height:18px;
+	text-decoration:none;
+}
+
+.marketplacenav li .marketplacedropdown li a:hover {
+	background:#8093ad;
+	text-decoration:none;
+}
+
+/* specific style for nwsource dropdown */
+ul.dropdown#nwsourcedrop {
+	margin-left:59px;
+}
+
+/* sports only */
+
+li.dropdownlabel {
+	font-weight:bold;
+	color:#ccc;
+	padding:6px 8px 2px 6px;
+}
+
+/* subnav */
+
+.subnavcontainer {
+	margin-top:5px;
+	width:610px;
+	background-color:#EEE;
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+	font-family:arial, helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	line-height:18px;
+	z-index:-1;
+}
+.subnavcontainer2 {
+	margin-top:5px;
+	width:930px;
+	background-color:#EEE;
+	border-top:1px solid #999;
+	border-bottom:1px solid #999;
+	font-family:arial, helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	line-height:18px;
+	z-index:-1;
+}
+.timessubnav {
+	width:610px;
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+	display:block;
+	line-height:18px;
+}
+.timessubnav2 {
+	width:930px;
+	list-style:none;
+	padding:0;
+	margin:0;
+	float:left;
+	display:block;
+	line-height:18px;
+}
+.timessubnav li {
+	float:left;
+	line-height:18px;
+	padding:1px 1px 2px 14px;
+}
+.timessubnav2 li {
+	float:left;
+	line-height:18px;
+	padding:1px 1px 2px 14px;
+}
+.subnav, li.subnav a, li.subnav a:link, li.subnav a:visited {
+	color:#038;
+	background-color:#EEE;
+	text-decoration:none;
+}
+li.subnav a:hover {
+	text-decoration:underline;
+}
+
+/* DEPRECATE_END */
+
+
+
+/* pagination */
+.st_pagination {
+	margin:0px;
+	padding:0px;
+}
+.st_pagination li {
+	list-style:none;
+	float:left;
+	padding:2px 4px 2px 4px;
+	margin-right:5px;
+	font-size:11px;
+	font-weight:bold;
+}
+.st_pag_off {
+	background-color:#EEE;
+	border:1px solid #CCC;
+	color:#037;
+}
+.st_pag_over {
+	background-color:#cee0f2;
+	border:1px solid #8fadcc;
+	color:#037;
+	cursor:pointer;
+}
+.st_pag_on {
+	background-color:#FFF;
+	border:1px solid #999;
+	color:#111;
+}
+.st_pag_mt {
+	background-color:#FFF;
+	border:1px solid #DDD;
+}
+
+/* tabs */
+.st_tabs_content {
+	display:none;
+	width:298px;
+}
+.st_tabs_labels {
+	font-size:11px;
+	font-weight:bold;
+	margin-bottom:10px;
+	float:left;
+}
+.st_tabs_label_off {
+	float:left;
+	background-color:#EEE;
+	border-bottom:1px solid #555;
+	border-top:1px solid #999;
+	padding:3px 7px 3px 7px;
+	margin-top:3px;
+	color:#037;
+	cursor:pointer;
+}
+.st_tabs_label_on {
+	float:left;
+	background-color:#FFF;
+	border-left:1px solid #555;
+	border-bottom:1px solid #FFF;
+	border-top:1px solid #555;
+	border-right:1px solid #555;
+	padding:3px 7px 5px 7px;
+	color:#000;
+	cursor:pointer;
+}
+.st_tabs_label_space {
+	background-color:#EEE;
+	border-top:1px solid #999;
+	border-bottom:1px solid #555;
+	float:left;
+	margin-top:3px;
+	padding:3px 2px 3px 2px;
+}
+.st_tabs_label_spaceright {
+	background-color:#EEE;
+	border-top:1px solid #999;
+	border-bottom:1px solid #555;
+	float:left;
+	margin-top:3px;
+	width:5px ! important;
+	padding:3px 0;
+}
+.st_tabs ol {
+	clear:both;
+}
+
+
+.seahawks_nav {
+	width:454px; 
+	background-color:#3c5179; 
+	margin-top:7px; 
+	color:#fff; 
+	font-size:11px;
+}
+.seahawks_nav a, .seahawks_nav a:link, .seahawks_nav a:hover, .seahawks_nav a:visited {
+	color:#fff;
+}
+.mariners_nav {
+	background-color:#003263;
+	color:#fff; 
+	font-size:11px;
+}
+.mariners_nav a, .mariners_nav a:link, .mariners_nav a:hover, .mariners_nav a:visited {
+	color:#fff;
+	padding:0px 7px 0px 7px;
+}
+.sonics_nav {
+	background-color:#006031;
+	border-top:3px solid #ffc220;
+	color:#fff; 
+	font-size:11px;
+}
+.sonics_nav a, .sonics_nav a:link, .sonics_nav a:hover, .sonics_nav a:visited {
+	color:#fff;
+	padding:2px 7px 2px 7px;
+}
+
+

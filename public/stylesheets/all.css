@@ -1,0 +1,219 @@
+/* jQuery Roundrr CSS Stylesheet 1.0 */
+
+* { margin: 0px; padding: 0px; }
+
+li { list-style-type: none; }
+
+a { text-decoration: none; }
+
+p { text-indent:20px;}
+
+
+.standard_page {
+	margin: 20px 50px;
+	width: 800px;
+	}
+	
+.standard_page p, a, li {
+	margin:5px 2px 5px 2px; 
+	font-family: lucida, arial, sans-serif; 
+	font-weight: lighter;
+	font-size: 14px;
+	}
+
+
+h1, h2, h3, h4, h5, a, li {
+	font-family: lucida, arial, sans-serif; 
+	font-weight: lighter;
+	}	
+
+#banner { 
+	color: white; 
+	background: black; 
+	}
+	
+h1 { 
+	font-size: 18px; 
+	padding: 10px 50px; 
+	}
+	 
+nav {
+	height: 25px; 
+	background: green; 
+	display: block;
+	}
+	
+nav ul { 
+	margin-left: 50px; }
+	
+nav li { 
+	float: left;
+	display: block; 
+	}
+	
+nav ul li { 
+	margin: 5px 20px;
+	}
+	
+nav ul li a {
+	color: white; 
+	font-size: 13px;
+	}
+
+.background {
+    position:absolute;
+    width:70%;
+    margin:5%;
+    }
+    
+.circle {
+    position:absolute;
+    left:490px; top:85px;
+    }
+
+.hidden_map { display: none; }
+
+.flag {
+    height:40px;
+    position:absolute;
+    top:2px;  left:250px;
+    }
+    
+.text_block {
+    position:absolute;
+    }
+
+#all {
+    position: absolute;
+    top: 60px; left: 50px;
+    width: 375px;
+    text-indent:20px;
+    color:#666;
+    }
+
+#all h2 {
+    color:#555;
+    font-style:serif;
+    font-size:18px;
+    margin: 20px 0px 8px 0px;
+    }
+
+
+.info {
+    display: none;
+    position: absolute;
+    top: 80px; left: 50px;
+    width: 375px;
+    height:400px;
+    }
+
+.info p {
+    text-indent:20px;
+    color:#666;
+	font-size: 15px;
+    }
+
+.info h2 {
+    color:#d3102a;
+    font-style:serif;
+    font-size:40px;
+    margin:0 0 5px 20px;
+    padding:0px;
+    
+    }
+    
+
+#next {
+    left:350px;
+	z-index: 500;
+    }
+
+#prev {
+    
+    left:65px;
+    text-decoration:none;
+    }
+
+.container {
+	position: relative;
+}
+
+.my_class {
+	font-size: 1.5em;
+	color: #abc;
+	background-color: transparent;
+}
+
+.my_class img {
+	height: 100px;
+	width:;
+}
+
+#roundrr_navigation a {
+    position: absolute;
+	font-size:16px;
+    top:450px;	
+    color:#d3102a;
+    text-decoration:none;
+}
+
+#roundrr_navigation p{
+    position:absolute;
+    color:#888;
+    top:480px;
+    left:50px;
+    font-size:20px;
+    }
+
+.centerImage {
+	width:300px;
+}
+
+.roundrr_center {
+	background-color: transparent;
+	position: absolute;
+	top: 70px; left: 530px;
+	width: 330px;
+}
+
+#roundrr_container, #roundrr_container2 {
+	position: relative;
+	top: 60px; left: 70px;
+	width: 100px;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.roundrr_div_item {
+	background-color: none;
+	height: 50px;
+	padding: 40px;
+	color: #234;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	cursor: pointer;
+}
+
+
+.selected{
+
+//background-color:red;
+//border:2px solid red;
+color:#AABBCC;
+font-size:1.5em;
+
+}
+
+.roundrr_center, .roundrr_center img, .centerImage{
+ cursor:pointer;
+}
+
+
+
+#roundrr_container, #roundrr_container2{
+
+height:auto;
+}
+
+

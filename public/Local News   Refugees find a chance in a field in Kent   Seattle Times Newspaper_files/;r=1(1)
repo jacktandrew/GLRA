@@ -1,0 +1,5 @@
+document.write('');
+
+var zflag_nid="1061"; var zflag_cid="2"; var zflag_sid="1"; var zflag_width="728"; var zflag_height="90"; var zflag_sz="14"; var zflag_$="dotconnect728x90";
+
+document.write('\n<script language=\"JavaScript\" src=\"http://d3.zedo.com/jsc/d3/fo.js\"><\/script>');document.write('\n');

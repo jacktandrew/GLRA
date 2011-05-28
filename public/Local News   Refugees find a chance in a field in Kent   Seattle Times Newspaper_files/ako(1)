@@ -1,0 +1,6 @@
+document.write('<iframe allowtransparency=\"true\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" height=\"90\" width=\"728\" src=\"http://ad.yieldmanager.com/iframe3?WQEAANyqCQA01jAAAAAAAO2gDQAAAAAAAAAIAAYAAAAAAAoAAQADGGpSEwAAAAAAo04TAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADn6QQAAAAAAAIAAgAAAAAAMzMzMzMz4z8zMzMzMzPjPzMzMzMzM-M.MzMzMzMz4z8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACP--lqZX8lCgiLJ6E83PbYOtOtLH42ycgEYdn3AAAAAA==,,http%3A%2F%2Fseattletimes.nwsource.com%2Fhtml%2Flocalnews%2F2009950622_burundifarmxxm.html,Z%3D728x90%26s%3D633564%26r%3D1%26_salt%3D1833057801%26u%3Dhttp%253A%252F%252Fseattletimes.nwsource.com%252Fhtml%252Flocalnews%252F2009950622_burundifarmxxm.html,3cf296ce-8694-11e0-8994-78e7d15f6aca\"></iframe>');
+var rm_data = new Object();
+rm_data.creative_id = 3200564;
+rm_data.offer_type = 3;
+rm_data.entity_id = 171744;
+if (window.rm_crex_data) {rm_crex_data.push(3200564);}

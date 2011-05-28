@@ -1,0 +1,78 @@
+#xp_header { width:300px; background:#8093ad url('http://www.nwsource.com/crosspromo/images/classifieds/Marketplace_Header_Icon.gif') 280px center no-repeat; border-top:2px solid #7dba00; font:bold 12px Arial, Verdana, sans-serif; color:#fff; }
+#xp_header .xp_pad { padding:5px; }
+#xp { width:300px; overflow:hidden; }
+#xp form { margin:0; }
+#xp img { border:0; }
+#xp_tabs { overflow:auto; width:100%; background:url('http://www.nwsource.com/crosspromo/images/classifieds/tab_bg.gif') bottom left repeat-x; }
+#xp_nwjobs_tab, #xp_nwautos_tab, #xp_nwhomes_tab, #xp_nwsource_tab, #xp_end_tab { float:left; height:20px; line-height:20px; font-size:16px; cursor:pointer; text-indent:-9000px; margin:10px 0 0 0; }
+#xp_nwjobs_tab { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Nav_Jobs_Off.gif'); width:40px; }
+#xp_nwautos_tab { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Nav_Autos_Off.gif'); width:43px; }
+#xp_nwhomes_tab { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Nav_Homes_Off.gif'); width:98px; }
+#xp_nwsource_tab { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Nav_Classifieds_Off.gif'); width:67px; }
+#xp_end_tab { height:19px; border-bottom:1px solid #cccccc; width:52px; }
+#xp_nwjobs_tab.xp_active { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Nav_Jobs_On.gif'); }
+#xp_nwautos_tab.xp_active { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Nav_Autos_On.gif'); }
+#xp_nwhomes_tab.xp_active { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Nav_Homes_On.gif'); }
+#xp_nwsource_tab.xp_active { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Nav_Classifieds_On.gif'); }
+#xp_nwjobs, #xp_nwautos, #xp_nwhomes, #xp_nwsource { height:450px; clear:both; display:none; border:1px solid #ccc; border-top:0; padding:10px; font-family:Arial, Verdana, sans-serif; font-size:11px; line-height:15px !important; color:#222222; }
+#xp_nwjobs.xp_active, #xp_nwautos.xp_active, #xp_nwhomes.xp_active, #xp_nwsource.xp_active { display:block; }
+#xp h3 { height:30px;  font-family:Arial, Verdana, sans-serif;  font-size:25px;  line-height:25px;  color:#333;  font-weight:normal;  margin:0 0 10px 0;  text-indent:-9000px;  cursor:pointer; }
+#xp_nwjobs h3 { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Logo_NWJobs.gif') left top no-repeat; }
+#xp_nwautos h3 { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Logo_NWAutos.gif') left top no-repeat; }
+#xp_nwhomes h3.homes { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Logo_NWHomes.gif') left top no-repeat; }
+#xp_nwhomes h3.apartments { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Logo_NWApartments.gif') left top no-repeat; }
+#xp_nwsource h3 { background:url('http://www.nwsource.com/crosspromo/images/classifieds/Classified_Logo_NWSource.gif') left top no-repeat; }
+#xp h4 { clear:left; font-family:Arial, Verdana, sans-serif; font-size:16px; line-height:16px; height:25px; color:#333; font-weight:normal; margin:10px 0 10px 0; }
+#xp ul { list-style:none; margin:0; padding:0; }
+#xp ul li { padding:0 0 2px 0; }
+#xp a { color:#003366; text-decoration:none; font-size:12px; }
+#xp a:hover { text-decoration:underline; }
+#xp .xp_more { font-size:11px; color:#990000; }
+#xp .xp_morebl { font-size:11px; color:#003366; }
+#xp .xp_moresm { font-size:10px; color:#003366; }
+#xp .featuremore { font-size:12px; }
+#xp .xp_featureimg { float:left; margin-bottom:10px; border:1px solid #000000; }
+#xp .fltleft { float:left; }
+#xp .mrgnbttm { margin-bottom:10px; }
+#xp .mrgntop { margin-bottom:10px; }
+#xp .xp_feature { float:left; width:145px; padding:0; margin:0 0 10px 10px; }
+#xp .xp_subfeature { float:left; width:215px; padding:0; margin:0 0 10px 10px; }
+#xp .section { color:#666666; font-size:12px; padding-bottom:3px; }
+#xp .leftdiv_box { float:left; border-left:1px solid #cccccc; margin-left:10px; padding-left:10px; }
+#xp .divtop { margin-top:10px; padding-top:10px; border-top:1px solid #cccccc; }
+#xp .divhdr { font-size:12px; line-height:12px; padding-bottom:1px; height:13px; color:#666666; border-bottom:1px solid #cccccc; margin:0; }
+#xp .divhdr a { text-decoration:none; color:#666666; }
+#xp .divhdr a:hover { text-decoration:none; color:#003366; }
+#xp .xp_box { overflow:auto; clear:both; margin-top:10px; }
+#xp .colhalf { margin:0; float:left; width:50%; }
+#xp .colhalfbr { margin:0; float:left; width:49%; border-right:1px solid #cccccc; }
+#xp .colthird { margin:0; float:left; width:33%; }
+#xp .textcenter { text-align:center; }
+#xp .imgright { float:right;  margin-right:8px; }
+#xp .imgleft { float:left;  margin-left:8px; }
+#xp .featurediv { font-size:12px; color:#666666; border-top:1px solid #cccccc; margin-top:5px; padding-top:5px; }
+#xp .smrgnbttm { margin-bottom:10px; }
+#xp .greyhdr { font-size:12px; line-height:12px; color:#666666; }
+#xp .greyhdrlg { font-size:14px; line-height:14px; color:#666666; }
+#xp .xp_quicklinks { margin:0; }
+#xp .xp_quicklinks li { float:left; width:50%; }
+#xp .randomad { border-collapse:collapse; border-spacing: expression(cellSpacing=0); /* for IE */border-spacing:0; margin-bottom:5px; }
+#xp #tright h5, #xp #tright p { margin:0 0 0 10px; padding:0; font: 12px Arial, Verdana, sans-serif; }
+#xp #tright h5 { font-weight:bold; }
+#xp #rndimage img { border:1px solid #000000 !important; }
+#xp .category, #xp .event-date {  color:#999999; }
+#xp .imgcenter { text-align:center; border:1px solid #000000; }
+#xp .poptext { padding:2px 5px; text-align:center; }
+#xp .xp_promo { clear:both; text-align:center; margin-top:10px; width:278px; height:40px; overflow:hidden; }
+#xp .xp_new { color:#990000;text-transform:uppercase;font-size:10px;margin-left:6px; }
+#xp_nwhomes { padding:0; background:url('http://www.nwsource.com/crosspromo/images/classifieds/tab_bgfade.gif') bottom left repeat-x; }
+#xp_nwhomes h2 { margin:0 0 5px 0; font-size:16px; }
+#xp .xp_homespad { padding:10px; }
+#xp .xp_srchtable { border-bottom:1px solid #BBBCBE; background:url('http://www.nwsource.com/crosspromo/images/classifieds/tab_bgfade.gif') bottom left repeat-x; }
+#xp .xp_opentable { margin-top:25px; font-size:11px; }
+#xp .xp_opentable select { width:150px; }
+#xp .xp_shadowtop { border-top:1px solid #DDDEDF; }
+#xp .xp_srchtable td { text-align:center; }
+#xp .xp_sideborder { border-left:1px solid #fff; border-right:1px solid #fff; }
+#xp .xp_srchlink { padding:0 10px; font-weight:bold; text-align:center; }
+#xp .xp_padtop { padding-top:5px; }
