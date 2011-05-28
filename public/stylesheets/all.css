@@ -18,7 +18,7 @@ p { text-indent:20px;}
 	margin:5px 2px 5px 2px; 
 	font-family: lucida, arial, sans-serif; 
 	font-weight: lighter;
-	font-size: 14px;
+	font-size: 16px;
 	}
 
 
@@ -62,8 +62,8 @@ nav ul li a {
 
 .background {
     position:absolute;
-    width:70%;
-    margin:5%;
+    height: 300px;
+    margin: 15px 0 0 35px;
     }
     
 .circle {
@@ -81,22 +81,27 @@ nav ul li a {
     
 .text_block {
     position:absolute;
+	top: 65px;
     }
 
 #all {
     position: absolute;
     top: 60px; left: 50px;
     width: 375px;
-    text-indent:20px;
-    color:#666;
+    text-indent: 20px;
+    color: #666;
+	font-size: 100%;
     }
 
 #all h2 {
     color:#555;
     font-style:serif;
     font-size:18px;
-    margin: 20px 0px 8px 0px;
+	text-indent:0px;
+    margin: 20px 0px 0px 0px;
     }
+
+#all .text_block { top: 55px; font-size:100%;}
 
 
 .info {
@@ -110,7 +115,7 @@ nav ul li a {
 .info p {
     text-indent:20px;
     color:#666;
-	font-size: 15px;
+	font-size: 95%;
     }
 
 .info h2 {
@@ -152,7 +157,7 @@ nav ul li a {
 #roundrr_navigation a {
     position: absolute;
 	font-size:16px;
-    top:450px;	
+    top:445px;	
     color:#d3102a;
     text-decoration:none;
 }
@@ -167,18 +172,19 @@ nav ul li a {
 
 .centerImage {
 	width:300px;
+	
 }
 
 .roundrr_center {
 	background-color: transparent;
 	position: absolute;
-	top: 70px; left: 530px;
-	width: 330px;
+	top: 70px; left: 525px;
+	width: 300px;
 }
 
 #roundrr_container, #roundrr_container2 {
-	position: relative;
-	top: 60px; left: 70px;
+	position: absolute;
+	top: 60px; left: 560px;
 	width: 100px;
 	height: auto;
 	text-align: center;
