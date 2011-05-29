@@ -4,14 +4,14 @@
 	margin: 0px; 
 	padding: 0px; 
 	font-weight: lighter;
-	line-height: 120%;
+
 	}
 
 li { list-style-type: none; }
 
 a { text-decoration: none; }
 
-p { text-indent:20px;}
+p { text-indent:20px; line-height: 150%;}
 
 
 .standard_page {
@@ -71,7 +71,7 @@ nav ul li {
 .background {
     position:absolute;
 	left: 20px;
-    width: 80%;
+    width: 75%;
     }
     
 .circle {
@@ -95,10 +95,10 @@ nav ul li {
 #all {
     position: absolute;
     top: 60px; left: 50px;
-    width: 375px;
+    width: 420px;
     text-indent: 20px;
     color: #666;
-	font-size: 100%;
+	font-size: 95%;
     }
 
 #all h2 {
@@ -116,8 +116,8 @@ nav ul li {
     display: none;
     position: absolute;
     top: 80px; left: 50px;
-    width: 375px;
-    height:400px;
+    width: 420px;
+    height: 400px;
     }
 
 .info p {
@@ -165,7 +165,7 @@ nav ul li {
 #roundrr_navigation a {
     position: absolute;
 	font-size: 16px;
-    top: 445px;	
+    top: 485px;	
     color: #d3102a;
     text-decoration: none;
 }
@@ -186,13 +186,13 @@ nav ul li {
 .roundrr_center {
 	background-color: transparent;
 	position: absolute;
-	top: 70px; left: 525px;
+	top: 90px; left: 550px;
 	width: 300px;
 }
 
 #roundrr_container, #roundrr_container2 {
 	position: absolute;
-	top: 60px; left: 560px;
+	top: 80px; left: 585px;
 	width: 100px;
 	height: auto;
 	text-align: center;
