@@ -14,12 +14,12 @@
     </div>
     <nav>
       <ul>
-        <li><%= link_to "Home", '/' %></li>
-        <li><%= link_to "About", 'about' %></li>
-        <li><%= link_to "Press", 'press' %></li>
-        <li><%= link_to "Video", 'video' %></li>
-        <li><%= link_to "Photo", 'photo' %></li>
-        <li><%= link_to "Contact", 'contact' %></li>
+        <li><%= link_to "Home", '/', :class => is_active?("home") %></li>
+        <li><%= link_to "About", 'about', :class => is_active?("about") %></li>
+        <li><%= link_to "Press", 'press', :class => is_active?("press") %></li>
+        <li><%= link_to "Video", 'video', :class => is_active?("video") %></li>
+        <li><%= link_to "Photo", 'photo', :class => is_active?("photo") %></li>
+        <li><%= link_to "Contact", 'contact', :class => is_active?("contact") %></li>
       </ul>
     </nav>
   </header>

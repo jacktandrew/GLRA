@@ -14,7 +14,7 @@ p { text-indent:20px;}
 	width: 800px;
 	}
 	
-.standard_page p, a, li {
+.standard_page p, li {
 	margin:5px 2px 5px 2px; 
 	font-family: lucida, arial, sans-serif; 
 	font-weight: lighter;
@@ -36,47 +36,36 @@ h1 {
 	font-size: 18px; 
 	padding: 10px 50px; 
 	}
-	 
 
-	
-
-	
 nav ul { 
-	margin-left:30px;
+	padding-left:45px;
 	background: green;
-	display: block;
-	height: 30px; 
+	height: 29px; 
 	}
 	
-nav li:hover { 
+nav ul li a:hover { 
 	background: #458B00;
-	opacity: 50%; 
 	}
-	
-nav li {
-	margin: 5px;
-	padding: 0; 
-	
-	
-	text-align: center;
-	vertical-align: center;
-	float: left;
-	display: block;
-	height: 20px; width: 75px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	}
-	
-nav { 
 
-	background: green;
-	display: block;
-	height: inherit; 
+nav li a.active {
+	background: #458B00;
 	}
 	
 nav ul li a {
+	margin: 4px;
+	padding: 3px 0; 	
+	text-align: center;
+	float: left;
+	display: block;
+	width: 75px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	color: white; 
 	font-size: 13px;
+	}
+	
+nav ul li {
+	margin: 0;
 	}
 
 .background {
